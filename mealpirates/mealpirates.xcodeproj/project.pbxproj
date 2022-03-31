@@ -14,6 +14,8 @@
 		8E09ADEC27F573C9003AE7B9 /* mealpiratesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E09ADEB27F573C9003AE7B9 /* mealpiratesTests.swift */; };
 		8E09ADF627F573C9003AE7B9 /* mealpiratesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E09ADF527F573C9003AE7B9 /* mealpiratesUITests.swift */; };
 		8E09ADF827F573C9003AE7B9 /* mealpiratesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E09ADF727F573C9003AE7B9 /* mealpiratesUITestsLaunchTests.swift */; };
+		8E09AE0527F577DF003AE7B9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E09AE0427F577DF003AE7B9 /* LoginView.swift */; };
+		8E09AE0927F579BD003AE7B9 /* mealpiratelogo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E09AE0827F579BD003AE7B9 /* mealpiratelogo.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8E09ADF127F573C9003AE7B9 /* mealpiratesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mealpiratesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E09ADF527F573C9003AE7B9 /* mealpiratesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealpiratesUITests.swift; sourceTree = "<group>"; };
 		8E09ADF727F573C9003AE7B9 /* mealpiratesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealpiratesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E09AE0427F577DF003AE7B9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8E09AE0827F579BD003AE7B9 /* mealpiratelogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mealpiratelogo.jpeg; path = ../../../mealpiratelogo.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				8E09ADDC27F573C7003AE7B9 /* ContentView.swift */,
 				8E09ADDE27F573C9003AE7B9 /* Assets.xcassets */,
 				8E09ADE027F573C9003AE7B9 /* Preview Content */,
+				8E09AE0427F577DF003AE7B9 /* LoginView.swift */,
+				8E09AE0827F579BD003AE7B9 /* mealpiratelogo.jpeg */,
 			);
 			path = mealpirates;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E09ADE227F573C9003AE7B9 /* Preview Assets.xcassets in Resources */,
+				8E09AE0927F579BD003AE7B9 /* mealpiratelogo.jpeg in Resources */,
 				8E09ADDF27F573C9003AE7B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E09AE0527F577DF003AE7B9 /* LoginView.swift in Sources */,
 				8E09ADDD27F573C7003AE7B9 /* ContentView.swift in Sources */,
 				8E09ADDB27F573C7003AE7B9 /* mealpiratesApp.swift in Sources */,
 			);
